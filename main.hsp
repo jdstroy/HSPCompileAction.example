@@ -1,0 +1,7 @@
+#module Hello
+#deffunc main
+  mes strf("%s!", "Hello world")
+  return
+#global
+
+main
