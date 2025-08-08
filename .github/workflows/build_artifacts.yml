@@ -35,7 +35,7 @@ jobs:
         shell: pwsh
         run: |
           $ProgressPreference = 'SilentlyContinue'
-          Invoke-WebRequest -OutFile ($ENV:GITHUB_WORKSPACE + "\hsp36.zip") https://www.onionsoft.net/hsp/file/hsp36.zip
+          Invoke-WebRequest -OutFile ($ENV:GITHUB_WORKSPACE + "\hsp36.zip") https://github.com/onitama/OpenHSP/releases/download/v3.6/hsp36en.zip
 
       - name: Unzip HSP 3.6
         shell: pwsh
